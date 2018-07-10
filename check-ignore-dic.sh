@@ -18,4 +18,4 @@ awk '
 }
 
 
-' mozc_dictionary_oss/*
+' mozc-dictionary-oss/*

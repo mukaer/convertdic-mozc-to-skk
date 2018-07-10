@@ -10,11 +10,14 @@ for filename in `ls tmp2/*.txt` ; do
 
 done
 
-echo  $GRAMMER
+# debug
+#echo  $GRAMMER
+
+echo ";; -*- mode: fundamental; coding: euc-jp -*-" >  SKK-JISYO.mozc
+skkdic-expr2 $GRAMMER >> SKK-JISYO.mozc
+
 
 # memo
-# seg error skkdic-expr2 . too many many candidates?
-#skkdic-expr2 $GRAMMER > SKK-JISYO.mozc
-
+#
 # use skkdic-expr
-skkdic-expr $GRAMMER | skkdic-sort > SKK-JISYO.mozc
+#skkdic-expr $GRAMMER | skkdic-sort > SKK-JISYO.mozc

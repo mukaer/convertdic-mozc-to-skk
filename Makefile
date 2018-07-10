@@ -16,5 +16,4 @@ join:
 clean:
 	rm -f tmp1/*.txt
 	rm -f tmp2/*.txt
-	rm -f tmp3/*.txt
 	rm -f SKK-JISYO.mozc
