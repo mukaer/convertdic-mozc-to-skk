@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 
 # make grammer
 for filename in `ls tmp2/*.txt` ; do

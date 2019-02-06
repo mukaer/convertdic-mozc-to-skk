@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 
 #utf8 to euc-jp
 for file in `ls ./tmp1/*.txt` ; do

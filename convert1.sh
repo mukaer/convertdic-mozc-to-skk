@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 
 #convert
 for file in `ls ./mozc-dictionary-oss/*.txt` ; do
